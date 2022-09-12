@@ -34,6 +34,14 @@ public class Main {
                 System.out.println("Площадь прямоугольника:" + s);
                 break;
             }
+            case "c":
+                System.out.println("Введите радиус круга");
+                int r = in.nextInt();
+                s = (float) Math.PI * r;
+
+                System.out.printf("Площадь круга:%.2f", s);
+
+                break;
         }
     }
 }
