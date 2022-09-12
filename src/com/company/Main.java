@@ -26,6 +26,14 @@ public class Main {
                 }
                 break;
             }
+            case "p": {
+                System.out.println("Введите стороны прямоугольника");
+                int a = in.nextInt();
+                int b = in.nextInt();
+                s = a * b;
+                System.out.println("Площадь прямоугольника:" + s);
+                break;
+            }
         }
     }
 }
